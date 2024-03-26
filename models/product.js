@@ -6,7 +6,7 @@ const productSchema = new mongoose.Schema({
     required: [true, 'product name must be provided'],
   },
   price: {
-    type: number,
+    type: Number,
     required: [true, 'product price must be provided'],
   },
   featured: {
